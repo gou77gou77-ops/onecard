@@ -1,83 +1,261 @@
-원카드 온라인 개인정보처리방침
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>원카드 온라인 개인정보처리방침 · One Card Online Privacy Policy</title>
+<meta name="description" content="원카드 온라인(One Card Online) 개인정보처리방침 / Privacy Policy">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1f2328;
+    --muted: #59636e;
+    --line: #d1d9e0;
+    --accent: #6d4aff;
+    --chip: #f3f0ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15161a;
+      --text: #e6e7ea;
+      --muted: #9aa1ab;
+      --line: #2f3238;
+      --accent: #a28bff;
+      --chip: #24203a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", "Segoe UI", Roboto, sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  .lang-switch { display: flex; gap: 8px; justify-content: flex-end; margin-bottom: 8px; }
+  .lang-switch button {
+    border: 1px solid var(--line); background: transparent; color: var(--muted);
+    padding: 6px 14px; border-radius: 999px; font-size: 14px; cursor: pointer;
+  }
+  .lang-switch button[aria-pressed="true"] { background: var(--chip); color: var(--accent); border-color: var(--accent); font-weight: 600; }
+  h1 { font-size: 26px; line-height: 1.3; margin: 8px 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  h3 { font-size: 16px; margin: 16px 0 4px; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+  ul { padding-left: 20px; margin: 6px 0; }
+  li { margin: 2px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 8px 0; }
+  th, td { border: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+  th { background: var(--chip); }
+  .table-wrap { overflow-x: auto; }
+  a { color: var(--accent); word-break: break-all; }
+  [data-lang] { display: none; }
+  html[lang="ko"] [data-lang="ko"], html[lang="en"] [data-lang="en"] { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <div class="lang-switch" role="group" aria-label="Language">
+    <button type="button" data-set-lang="ko">한국어</button>
+    <button type="button" data-set-lang="en">English</button>
+  </div>
 
-최종 수정일: 2026년 5월 31일
+  <!-- ===================== 한국어 ===================== -->
+  <article data-lang="ko">
+    <h1>원카드 온라인 개인정보처리방침</h1>
+    <!-- 수정 필요: 시행일을 1.0.3 출시일로 바꾸세요 -->
+    <p class="meta">최종 수정일: 2026년 10월 19일 · 시행일: 2026년 10월 19일</p>
 
-원카드 온라인(이하 "앱")은 이용자의 개인정보를 중요하게 생각하며, 관련 법령을 준수합니다.
+    <p>susuim(이하 "개발자")은 원카드 온라인(이하 "앱")을 이용하는 분들의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 등 관련 법령과 유럽연합 일반개인정보보호법(GDPR) 등 이용자가 거주하는 지역의 법령을 준수합니다.</p>
 
-1. 수집하는 정보
+    <h2>1. 수집하는 정보</h2>
+    <p>앱은 회원가입을 받지 않으며, 이름·전화번호·이메일 주소·주민등록번호 같은 정보를 요구하지 않습니다.</p>
+    <div class="table-wrap">
+    <table>
+      <tr><th>구분</th><th>항목</th><th>저장 위치</th></tr>
+      <tr><td>자동 생성</td><td>Firebase 익명 사용자 식별자(UID)</td><td>Google Firebase</td></tr>
+      <tr><td>이용자 입력</td><td>닉네임, 프로필 아이콘·칭호</td><td>기기, 온라인 대전 시 Google Firebase</td></tr>
+      <tr><td>온라인 대전</td><td>방 코드, 대전 진행 상태(손패·순서 등), 접속 상태</td><td>Google Firebase</td></tr>
+      <tr><td>게임 기록</td><td>코인·보석, 레벨, 업적, 승률·연승 기록, 출석 기록, 설정(언어·소리 등)</td><td>이용자 기기에만 저장</td></tr>
+      <tr><td>광고</td><td>광고 식별자(Android 광고 ID), 기기 정보, IP 주소, 광고 노출·클릭 정보</td><td>Google AdMob</td></tr>
+    </table>
+    </div>
+    <p>온라인 대전 중에는 닉네임과 프로필 아이콘·칭호가 같은 방의 다른 이용자에게 표시됩니다.</p>
 
-앱은 서비스 제공을 위해 다음 정보를 수집할 수 있습니다.
+    <h2>2. 이용 목적</h2>
+    <ul>
+      <li>친구와의 온라인 대전 제공(방 생성·입장, 대전 진행, 접속 상태 확인)</li>
+      <li>게임 진행 데이터 저장</li>
+      <li>앱 업데이트 필요 여부 확인</li>
+      <li>광고 제공 및 광고 시청 보상 지급</li>
+      <li>오류 확인 및 서비스 안정성 개선</li>
+      <li>이용자 문의 대응</li>
+    </ul>
 
-자동 생성 정보
-Firebase 익명 사용자 식별자(UID)
-게임 플레이 기록
-게임 진행 데이터
-접속 기록
-광고 식별자(광고 제공 시)
-이용자가 입력하는 정보
-닉네임
-프로필 설정 정보
+    <h2>3. 광고와 동의</h2>
+    <p>앱은 Google AdMob을 통해 광고를 제공합니다. Google은 광고 제공과 측정을 위해 광고 식별자 등 일부 정보를 수집할 수 있습니다.</p>
+    <ul>
+      <li><strong>유럽경제지역(EEA)·영국·스위스 이용자:</strong> 앱을 처음 실행할 때 Google의 동의 관리 도구를 통해 맞춤 광고와 데이터 사용에 대한 동의 여부를 선택할 수 있습니다. 동의하지 않아도 앱은 이용할 수 있으며, 이 경우 맞춤형이 아닌 광고가 표시될 수 있습니다. 선택은 앱의 설정 &gt; "광고 동의 설정 변경"에서 언제든 바꿀 수 있습니다.</li>
+      <li><strong>모든 이용자:</strong> Android 기기의 설정 &gt; 개인정보 보호(또는 Google) &gt; 광고에서 광고 ID를 재설정하거나 삭제하여 맞춤 광고를 제한할 수 있습니다.</li>
+    </ul>
+    <p>Google의 데이터 처리 방식: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></p>
 
-앱은 주민등록번호, 전화번호, 이메일 주소 등의 민감한 개인정보를 요구하지 않습니다.
+    <h2>4. 처리 위탁 및 국외 이전</h2>
+    <p>개발자는 이용자의 개인정보를 판매하지 않으며, 아래 서비스 제공을 위해서만 정보가 처리됩니다.</p>
+    <div class="table-wrap">
+    <table>
+      <tr><th>받는 자</th><th>목적</th><th>이전 국가</th><th>이전 방법·시기</th></tr>
+      <tr><td>Google LLC (Firebase)</td><td>익명 인증, 온라인 대전 데이터 저장</td><td>미국 등 Google 데이터센터 소재 국가</td><td>앱 이용 시 네트워크를 통해 전송</td></tr>
+      <tr><td>Google LLC (AdMob)</td><td>광고 제공 및 측정</td><td>미국 등 Google 데이터센터 소재 국가</td><td>광고 요청 시 네트워크를 통해 전송</td></tr>
+    </table>
+    </div>
+    <p>보유 기간은 아래 5항과 Google의 정책을 따릅니다. Google 개인정보처리방침: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
 
-2. 정보 수집 목적
+    <h2>5. 보유 기간 및 파기</h2>
+    <ul>
+      <li><strong>기기에 저장된 정보</strong>(게임 기록, 설정, 닉네임): 앱을 삭제하거나 앱 데이터를 지우면 즉시 삭제됩니다.</li>
+      <!-- 수정 필요: 방 데이터 자동 삭제(TTL)를 실제로 설정한 기간으로 맞추세요 -->
+      <li><strong>온라인 방 데이터</strong>: 대전 진행에 필요한 기간 동안 보관하며, 대전 종료 후 30일 이내에 삭제합니다.</li>
+      <li><strong>익명 사용자 식별자(UID)</strong>: 앱을 삭제하면 다시 사용되지 않으며, 삭제 요청 시 지체 없이 삭제합니다.</li>
+      <li><strong>광고 관련 정보</strong>: Google의 보관 정책에 따릅니다.</li>
+    </ul>
+    <p>전자적 파일 형태의 정보는 복구할 수 없는 방법으로 삭제합니다.</p>
 
-수집된 정보는 다음 목적을 위해 사용됩니다.
+    <h2>6. 이용자의 권리</h2>
+    <p>이용자는 언제든지 자신의 개인정보에 대해 열람, 정정, 삭제, 처리 정지를 요청할 수 있고, 광고 관련 동의를 철회할 수 있습니다. EEA·영국 이용자는 GDPR에 따라 이동권과 이의 제기권, 그리고 거주 국가의 감독기관에 민원을 제기할 권리도 가집니다.</p>
+    <p>요청은 아래 이메일로 보내 주세요. 계정이 없는 앱이므로 본인 확인을 위해 닉네임과 대략적인 이용 시기를 함께 알려 주시면 도움이 됩니다. 요청을 받은 날로부터 10일 이내(GDPR 적용 대상은 1개월 이내)에 처리합니다.</p>
 
-온라인 멀티플레이 서비스 제공
-게임 데이터 저장 및 동기화
-프로필 및 업적 관리
-고객 문의 대응
-광고 제공 및 서비스 개선
-오류 분석 및 안정성 향상
-3. 광고 서비스
+    <h2>7. 아동의 개인정보</h2>
+    <p>앱은 만 13세 미만 아동을 대상으로 하지 않습니다. 만 14세 미만 아동의 개인정보가 법정대리인의 동의 없이 수집된 사실을 알게 되면 즉시 삭제합니다.</p>
 
-앱은 Google AdMob을 이용하여 광고를 제공할 수 있습니다.
+    <h2>8. 안전성 확보 조치</h2>
+    <ul>
+      <li>서버 통신은 암호화된 연결(HTTPS/TLS)을 사용합니다.</li>
+      <li>이름·연락처 등 직접 식별 정보를 수집하지 않고, 익명 식별자만 사용합니다.</li>
+      <li>서버 데이터 접근 권한을 최소한으로 관리합니다.</li>
+    </ul>
 
-Google은 광고 제공을 위해 광고 식별자 등 일부 정보를 수집할 수 있습니다.
+    <h2>9. 개인정보 보호책임자</h2>
+    <ul>
+      <li>개발자: susuim</li>
+      <li>이메일: <a href="mailto:gou77gou77@gmail.com">gou77gou77@gmail.com</a></li>
+    </ul>
+    <p>개인정보 침해에 대한 상담이 필요하면 개인정보침해신고센터(국번 없이 118, privacy.kisa.or.kr) 또는 개인정보분쟁조정위원회(1833-6972, www.kopico.go.kr)에 문의할 수 있습니다.</p>
 
-Google 개인정보처리방침:
+    <h2>10. 방침의 변경</h2>
+    <p>이 방침은 법령이나 서비스 변경에 따라 바뀔 수 있으며, 변경 시 이 페이지에 게시하고 중요한 변경은 앱 업데이트 안내를 통해 알립니다.</p>
+    <p class="meta">이전 버전: 2026년 5월 31일 시행</p>
+  </article>
 
-https://policies.google.com/privacy
+  <!-- ===================== English ===================== -->
+  <article data-lang="en">
+    <h1>One Card Online Privacy Policy</h1>
+    <!-- EDIT: change the effective date to the 1.0.3 release date -->
+    <p class="meta">Last updated: October 19, 2026 · Effective: October 19, 2026</p>
 
-4. 개인정보 보관 기간
+    <p>susuim ("we", "the developer") respects the privacy of everyone who uses One Card Online ("the App"). We comply with applicable laws, including the Korean Personal Information Protection Act and the EU/UK General Data Protection Regulation (GDPR).</p>
 
-이용 정보는 서비스 운영에 필요한 기간 동안 보관됩니다.
+    <h2>1. Information We Collect</h2>
+    <p>The App has no sign-up. We never ask for your name, phone number, email address or government ID.</p>
+    <div class="table-wrap">
+    <table>
+      <tr><th>Type</th><th>Data</th><th>Where it is stored</th></tr>
+      <tr><td>Generated automatically</td><td>Firebase anonymous user ID (UID)</td><td>Google Firebase</td></tr>
+      <tr><td>Entered by you</td><td>Nickname, profile icon and title</td><td>Your device; Google Firebase during online matches</td></tr>
+      <tr><td>Online matches</td><td>Room code, match state (cards in hand, turn order, etc.), connection status</td><td>Google Firebase</td></tr>
+      <tr><td>Game progress</td><td>Coins and gems, level, achievements, win/streak stats, daily check-in, settings (language, sound, etc.)</td><td>Your device only</td></tr>
+      <tr><td>Advertising</td><td>Advertising ID (Android), device information, IP address, ad impression and click data</td><td>Google AdMob</td></tr>
+    </table>
+    </div>
+    <p>During online matches, your nickname, profile icon and title are visible to the other players in the same room.</p>
 
-이용자가 앱을 삭제하거나 서비스 이용을 중단하는 경우 관련 법령에 따라 필요한 기간 이후 삭제될 수 있습니다.
+    <h2>2. How We Use It</h2>
+    <ul>
+      <li>To run online matches with friends (creating and joining rooms, playing, checking connection status)</li>
+      <li>To save your game progress</li>
+      <li>To check whether an app update is required</li>
+      <li>To show ads and grant rewards for watching rewarded ads</li>
+      <li>To find errors and improve stability</li>
+      <li>To respond to your inquiries</li>
+    </ul>
+    <p><strong>Legal bases (GDPR):</strong> performance of the service you request (online play, saving progress), our legitimate interests (security, stability, non-personalized ads), and your consent (personalized ads).</p>
 
-5. 개인정보 제3자 제공
+    <h2>3. Ads and Consent</h2>
+    <p>The App shows ads through Google AdMob. Google may collect information such as your advertising ID to serve and measure ads.</p>
+    <ul>
+      <li><strong>Users in the EEA, UK and Switzerland:</strong> When you first open the App, Google's consent tool asks whether you agree to personalized ads and related data use. You can use the App without agreeing; you may then see non-personalized ads. You can change your choice at any time in Settings &gt; "Ad consent settings".</li>
+      <li><strong>All users:</strong> You can reset or delete your advertising ID in your Android device settings (Privacy or Google &gt; Ads) to limit personalized ads.</li>
+    </ul>
+    <p>How Google uses data: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></p>
 
-앱은 이용자의 개인정보를 외부에 판매하거나 제공하지 않습니다.
+    <h2>4. Service Providers and International Transfers</h2>
+    <p>We do not sell your personal information. Data is processed only by the providers below to run the App.</p>
+    <div class="table-wrap">
+    <table>
+      <tr><th>Provider</th><th>Purpose</th><th>Location</th></tr>
+      <tr><td>Google LLC (Firebase)</td><td>Anonymous sign-in, online match data</td><td>United States and other countries where Google operates data centers</td></tr>
+      <tr><td>Google LLC (AdMob)</td><td>Serving and measuring ads</td><td>United States and other countries where Google operates data centers</td></tr>
+    </table>
+    </div>
+    <p>Transfers outside your country are protected by Google's safeguards, such as Standard Contractual Clauses. Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
 
-다만 아래 서비스 제공 과정에서 정보가 처리될 수 있습니다.
+    <h2>5. Retention and Deletion</h2>
+    <ul>
+      <li><strong>Data on your device</strong> (progress, settings, nickname): deleted immediately when you uninstall the App or clear its data.</li>
+      <!-- EDIT: match this to the room auto-delete (TTL) period you actually set -->
+      <li><strong>Online room data</strong>: kept only while needed for the match and deleted within 30 days after it ends.</li>
+      <li><strong>Anonymous UID</strong>: no longer used once you uninstall the App, and deleted promptly on request.</li>
+      <li><strong>Advertising data</strong>: handled under Google's retention policies.</li>
+    </ul>
 
-Google Firebase
-Google AdMob
-6. 아동의 개인정보
+    <h2>6. Your Rights</h2>
+    <p>You may ask to access, correct or delete your personal information, ask us to restrict or stop processing it, and withdraw your ad consent at any time. If you are in the EEA or UK, you also have the right to data portability, the right to object, and the right to lodge a complaint with your local data protection authority.</p>
+    <p>Send requests to the email below. Because the App has no accounts, including your nickname and roughly when you played helps us find your data. We respond within one month.</p>
 
-본 앱은 만 13세 미만 아동을 대상으로 하지 않습니다.
+    <h2>7. Children</h2>
+    <p>The App is not directed at children under 13 (or the minimum age of digital consent in your country, up to 16 in the EEA). If we learn that we have collected personal information from such a child without parental consent, we will delete it promptly.</p>
 
-만 13세 미만 아동의 개인정보가 확인될 경우 즉시 삭제 조치를 진행합니다.
+    <h2>8. Security</h2>
+    <ul>
+      <li>All server communication uses encrypted connections (HTTPS/TLS).</li>
+      <li>We do not collect directly identifying information and use only an anonymous ID.</li>
+      <li>Access to server data is kept to a minimum.</li>
+    </ul>
 
-7. 이용자의 권리
+    <h2>9. Contact</h2>
+    <ul>
+      <li>Developer (data controller): susuim</li>
+      <li>Email: <a href="mailto:gou77gou77@gmail.com">gou77gou77@gmail.com</a></li>
+    </ul>
 
-이용자는 언제든지 앱 삭제를 통해 서비스 이용을 중단할 수 있습니다.
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this policy when laws or the App change. Updates will be posted on this page, and significant changes will be announced through an app update.</p>
+    <p class="meta">Previous version: effective May 31, 2026</p>
+  </article>
+</main>
 
-개인정보 관련 문의는 아래 연락처를 통해 요청할 수 있습니다.
-
-8. 개인정보 보호 책임자
-
-개발자: susuim
-
-문의 이메일: gou77gou77@gmail.com
-
-9. 개인정보처리방침 변경
-
-본 개인정보처리방침은 법령 또는 서비스 변경에 따라 수정될 수 있습니다.
-
-변경 시 앱 또는 관련 페이지를 통해 공지합니다.
-
-10. 시행일
-
-본 개인정보처리방침은 2026년 5월 31일부터 시행됩니다.
+<script>
+  (function () {
+    var root = document.documentElement;
+    function setLang(lang) {
+      root.lang = lang;
+      var buttons = document.querySelectorAll('[data-set-lang]');
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].setAttribute('aria-pressed', buttons[i].getAttribute('data-set-lang') === lang ? 'true' : 'false');
+      }
+    }
+    // 우선순위: 주소의 ?lang=ko|en → 브라우저 언어(ko면 한국어, 그 외 영어)
+    var param = new URLSearchParams(location.search).get('lang');
+    var browser = (navigator.language || 'en').toLowerCase();
+    var initial = (param === 'ko' || param === 'en') ? param : (browser.indexOf('ko') === 0 ? 'ko' : 'en');
+    setLang(initial);
+    var buttons = document.querySelectorAll('[data-set-lang]');
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener('click', function () { setLang(this.getAttribute('data-set-lang')); });
+    }
+  })();
+</script>
+</body>
+</html>
